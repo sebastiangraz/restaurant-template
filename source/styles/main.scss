@@ -1,6 +1,13 @@
 // 1. Project specific settings, variables, mixins and functions
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
 
-
+figure {
+  margin: 0;
+}
 // 2. General styles for base elements (body, a, p, h1...6 etc.)
 
 

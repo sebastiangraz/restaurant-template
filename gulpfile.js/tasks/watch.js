@@ -18,5 +18,9 @@ gulp.task('watch', function(){
     gulp.start('images');
   });
 
+  watch( watchConfig.scripts, function() {
+    gulp.start('scripts');
+  });
+
   watch( watchConfig.livereload, browserSync.reload);
 });

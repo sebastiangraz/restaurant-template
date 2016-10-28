@@ -54,8 +54,8 @@ var config = {
     ]
   },
 
-  webpack: {
-    source: './source/scripts/main.ts',
+  scripts: {
+    source: './source/scripts/main.js',
     dest: './public/assets/scripts'
   },
 
@@ -64,6 +64,7 @@ var config = {
     styles: src + 'styles/**/*.scss',
     styles_output: dist + '**/*.css',
     images: src + 'images/**/*.*',
+    scripts: src + 'scripts/**/*.*'
   }
 };
 

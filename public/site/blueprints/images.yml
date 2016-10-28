@@ -1,0 +1,16 @@
+title: Images
+pages: false
+files:
+  sortable: true
+fields:
+  title:
+    label: Title
+    type:  text
+  slideshow:
+    label: Images
+    type: structure
+    style: table
+    fields:
+      image:
+        label: Image
+        type: image

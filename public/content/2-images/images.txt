@@ -1,0 +1,12 @@
+Title: Images
+
+----
+
+Slideshow:
+
+-
+  image: food.jpg
+-
+  image: food1.jpg
+-
+  image: food2.jpg
